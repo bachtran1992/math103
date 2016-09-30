@@ -14,6 +14,11 @@
 		1E39794E1D9E18EB001B4BD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E39794C1D9E18EB001B4BD6 /* LaunchScreen.storyboard */; };
 		1E3979591D9E18EB001B4BD6 /* math103Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3979581D9E18EB001B4BD6 /* math103Tests.swift */; };
 		1E3979641D9E18EB001B4BD6 /* math103UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3979631D9E18EB001B4BD6 /* math103UITests.swift */; };
+		1E3979751D9E19A6001B4BD6 /* note1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E3979721D9E19A6001B4BD6 /* note1.png */; };
+		1E3979761D9E19A6001B4BD6 /* note2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E3979731D9E19A6001B4BD6 /* note2.png */; };
+		1E3979771D9E19A6001B4BD6 /* note3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E3979741D9E19A6001B4BD6 /* note3.png */; };
+		1E39797A1D9E19B0001B4BD6 /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E3979781D9E19B0001B4BD6 /* board.png */; };
+		1E39797B1D9E19B0001B4BD6 /* Cartoon-Springs-PPT-Backgrounds-1024x768.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E3979791D9E19B0001B4BD6 /* Cartoon-Springs-PPT-Backgrounds-1024x768.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		1E39795F1D9E18EB001B4BD6 /* math103UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = math103UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E3979631D9E18EB001B4BD6 /* math103UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = math103UITests.swift; sourceTree = "<group>"; };
 		1E3979651D9E18EB001B4BD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E3979721D9E19A6001B4BD6 /* note1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note1.png; sourceTree = "<group>"; };
+		1E3979731D9E19A6001B4BD6 /* note2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note2.png; sourceTree = "<group>"; };
+		1E3979741D9E19A6001B4BD6 /* note3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note3.png; sourceTree = "<group>"; };
+		1E3979781D9E19B0001B4BD6 /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		1E3979791D9E19B0001B4BD6 /* Cartoon-Springs-PPT-Backgrounds-1024x768.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cartoon-Springs-PPT-Backgrounds-1024x768.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +107,7 @@
 		1E3979421D9E18EB001B4BD6 /* math103 */ = {
 			isa = PBXGroup;
 			children = (
+				1E3979711D9E1958001B4BD6 /* Image Source */,
 				1E3979431D9E18EB001B4BD6 /* AppDelegate.swift */,
 				1E3979451D9E18EB001B4BD6 /* ViewController.swift */,
 				1E3979471D9E18EB001B4BD6 /* Main.storyboard */,
@@ -123,6 +134,18 @@
 				1E3979651D9E18EB001B4BD6 /* Info.plist */,
 			);
 			path = math103UITests;
+			sourceTree = "<group>";
+		};
+		1E3979711D9E1958001B4BD6 /* Image Source */ = {
+			isa = PBXGroup;
+			children = (
+				1E3979781D9E19B0001B4BD6 /* board.png */,
+				1E3979791D9E19B0001B4BD6 /* Cartoon-Springs-PPT-Backgrounds-1024x768.jpg */,
+				1E3979721D9E19A6001B4BD6 /* note1.png */,
+				1E3979731D9E19A6001B4BD6 /* note2.png */,
+				1E3979741D9E19A6001B4BD6 /* note3.png */,
+			);
+			name = "Image Source";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +255,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E39797A1D9E19B0001B4BD6 /* board.png in Resources */,
+				1E3979761D9E19A6001B4BD6 /* note2.png in Resources */,
 				1E39794E1D9E18EB001B4BD6 /* LaunchScreen.storyboard in Resources */,
 				1E39794B1D9E18EB001B4BD6 /* Assets.xcassets in Resources */,
+				1E3979771D9E19A6001B4BD6 /* note3.png in Resources */,
 				1E3979491D9E18EB001B4BD6 /* Main.storyboard in Resources */,
+				1E39797B1D9E19B0001B4BD6 /* Cartoon-Springs-PPT-Backgrounds-1024x768.jpg in Resources */,
+				1E3979751D9E19A6001B4BD6 /* note1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
